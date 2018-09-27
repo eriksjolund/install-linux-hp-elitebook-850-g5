@@ -62,7 +62,7 @@ The computer came with _FreeDOS_ already installed.
 I rebooted the laptop and went into the BIOS. From there it was possible to download
 and install a newer version of the BIOS.
 
-A slightly newer version of the BIOS is available from the HP web page
+An even newer version of the BIOS is available from the HP web page
 
     HP Firmware Pack (Q78)  01.03.00 Rev.A	 16.5 MB	22 aug 2018
 
