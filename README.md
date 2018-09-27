@@ -1,6 +1,7 @@
-Experiences running Ubuntu Linux on a HP Elitebook 850 G5
-
 # Running Linux (Ubuntu Desktop 18.04.1) on HP Elitebook 850 G5
+
+Sharing some experiences about running Ubuntu on an HP Elitebook 850 G5 laptop.
+
 
 Right now this document is only half-way finished. Hopefully I will find time to provide some more information.
 
