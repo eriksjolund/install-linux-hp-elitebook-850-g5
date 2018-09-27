@@ -67,25 +67,25 @@ The computer came with _FreeDOS_ already installed.
     [sudo] password for linux:
     linux@laptop:~$
 
-See the output in [output/lshw.txt]
+See the output in [output/lshw.txt](output/lshw.txt)
 
 ### lsmod
 
     linux@laptop:~$ lsmod > output/lsmod.txt
     linux@laptop:~$
 
-See the output in [output/lsmod.txt]
+See the output in [output/lsmod.txt](output/lsmod.txt)
 
 ### cat /proc/cpuinfo
 
     linux@laptop:~$ cat /proc/cpuinfo > output/cpuinfo.txt
     linux@laptop:~$
 
-See the output in [output/cpuinfo.txt]
+See the output in [output/cpuinfo.txt](output/cpuinfo.txt)
 
 ### cat /proc/meminfo
 
     linux@laptop:~$ cat /proc/meminfo > output/meminfo.txt
     linux@laptop:~$
 
-See the output in [output/meminfo.txt]
+See the output in [output/meminfo.txt](output/meminfo.txt)
