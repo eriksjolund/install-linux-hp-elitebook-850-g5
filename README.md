@@ -59,6 +59,19 @@ The computer came with _FreeDOS_ already installed.
 
 ### BIOS update
 
+I rebooted the laptop and went into the BIOS. From there it was possible to download
+and install a newer version of the BIOS.
+
+A slightly newer version of the BIOS is available from the HP web page
+
+    HP Firmware Pack (Q78)  01.03.00 Rev.A	 16.5 MB	22 aug 2018
+
+https://support.hp.com/us-en/drivers/selfservice/hp-elitebook-850-g5-notebook-pc/18491276
+
+but I wonder how to install it:
+
+https://github.com/eriksjolund/install-linux-hp-elitebook-850-g5/issues/2
+
 ## Output from some commands
 
 ### sudo lshw -sanitize
