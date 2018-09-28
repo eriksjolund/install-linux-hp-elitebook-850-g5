@@ -59,7 +59,7 @@ Short summary of hardware configuration
 The computer came with _FreeDOS_ already installed. 
 Instead of using FreeDOS, I installed Ubuntu 18.04.1 (wiping the whole hard drive).
 Unfortunately, it was a few weeks since I performed the installation so I don't remember the details.
-I believe it was very straightforward (selecting default choices).
+I believe it was straightforward (selecting default choices).
 
 Here is the partition table
 
