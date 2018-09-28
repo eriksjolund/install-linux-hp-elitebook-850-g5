@@ -57,6 +57,32 @@ Short summary of hardware configuration
 ## Installation
 
 The computer came with _FreeDOS_ already installed. 
+Instead of using FreeDOS, I installed Ubuntu 18.04.1 (wiping the whole hard drive).
+Unfortunately, it was a few weeks since I performed the installation so I don't remember the details.
+I believe it was very straightforward (selecting default choices).
+
+Here is the partition table
+
+    root@laptop:~# fdisk -l /dev/nvme0n1
+    Disk /dev/nvme0n1: 953,9 GiB, 1024209543168 bytes, 2000409264 sectors
+    Units: sectors of 1 * 512 = 512 bytes
+    Sector size (logical/physical): 512 bytes / 512 bytes
+    I/O size (minimum/optimal): 512 bytes / 512 bytes
+    Disklabel type: gpt
+    Disk identifier: 06016D96-2E6A-4584-9897-E9C6E2DDD47B
+    
+    Device           Start      End  Sectors  Size Type
+    /dev/nvme0n1p1    2048  7999487  7997440  3,8G EFI System
+    /dev/nvme0n1p2 7999488 39999487 32000000 15,3G Linux filesystem
+    root@laptop:~#
+    
+The EXT4 file system is used
+
+    root@laptop:~# file -s /dev/nvme0n1p2 
+    /dev/nvme0n1p2: Linux rev 1.0 ext4 filesystem data, UUID=9b426948-95ac-4325-8f42-f3ba5fd94f7a (needs journal recovery) (extents) (64bit) (large files) (huge files)
+    root@laptop:~# 
+
+
 
 ### BIOS update
 
